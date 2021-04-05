@@ -11,7 +11,7 @@ class Server {
 
         this.app = express();
         this.port = process.env.PORT;
-        this.userApiPath = '/api/users';
+        this.userApiPath = process.env.USERAPIPATH;
 
         // Conectar DB
         this.connDb();
