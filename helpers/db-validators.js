@@ -25,6 +25,7 @@ const emailExistsInDB = async( mail = '' ) => {
     }
 }
 
+
 module.exports = {
     isValidRole,
     emailExistsInDB,
